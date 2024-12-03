@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>مثال فرم</title>
+</head>
+<body style="direction : rtl; text-align : right;">
+<h1> فرم ثبت نام</h1> 
+<div style="margin : 40px ; padding: 10px;">
+        <form action="submit" method="post">
+            <div style="margin-bottom: 5px; margin-top: 5px; ">
+                <label for="username">نام کاربری : </label>
+                <input type="text" id="username" name="username" required />
+            </div>
+            <br/>
+            <div style="margin-bottom: 5px; margin-top: 5px;">
+                <label for="password">رمز عبور : </label>
+                <input type="password" id="password" name="password" required />
+            </div>
+            <br/>
+            <div style="margin : 5px;">
+                <label for="gender"> جنسیت : </label>
+                <select style="margin : 5px;" id="gender" name="gender">
+                    <option value="male"> مرد</option>
+                    <option value="female"> زن</option>
+                </select>
+            </div>
+            <br/>
+            <label style="margin : 5px;">
+                <input style="margin : 5px;" type="checkbox" name="agree" required/> قبول قوانین
+            </label>
+            <br/> <br/>
+            <button type="submit"> ارسال</button>
+            <button type="reset" style="margin : 10px">ریست </button>
+        </form>
+    </div>
+    </body>
+</html>

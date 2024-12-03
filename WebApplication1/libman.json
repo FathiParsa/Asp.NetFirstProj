@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "bootstrap@5.3.3",
+      "destination": "wwwroot/lib/bootstrap/"
+    },
+    {
+      "library": "jquery@3.7.1",
+      "destination": "wwwroot/lib/jquery/"
+    },
+    {
+      "library": "bootswatch@5.3.3",
+      "destination": "wwwroot/lib/bootswatch/",
+      "files": [
+        "litera/bootstrap.css",
+        "litera/bootstrap.min.css",
+        "litera/bootstrap.min.css.map",
+        "litera/bootstrap.rtl.css",
+        "litera/bootstrap.rtl.min.css",
+        "litera/bootstrap.rtl.min.css.map"
+      ]
+    }
+  ]
+}
